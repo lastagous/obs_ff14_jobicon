@@ -1,0 +1,51 @@
+div#main {
+    width: 1980px;
+}
+
+div.character_label {
+    display: contents;
+}
+
+div.character_pane{
+    margin-top: 8px;
+}
+
+div.uis_size_pane{
+    margin-top: 8px;
+}
+
+div#characters {
+    position: absolute;
+    left: 40px;
+}
+
+div#icon_size_pane {
+    position: absolute;
+    left: 450px;
+}
+
+div#button_pane {
+    position: absolute;
+    left: 450px;
+    top: 285px;
+}
+
+div#text_pane {
+    position: absolute;
+    left: 40px;
+    top: 330px;
+}
+
+div#description_pane {
+    position: absolute;
+    top: 660px;
+}
+
+textarea#generated {
+    resize: none;
+}
+
+footer {
+    position: absolute;
+    top: 900px;
+}

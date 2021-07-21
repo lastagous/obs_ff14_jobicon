@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>OBS Overlayを配信でジョブアイコンにして光らせるKit</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="title_pane">
+            <div id="title">OBS Overlayを配信でジョブアイコンにして光らせるKit</div>
+        </div>
+        <div id="content">
+            <div id="characters">
+                <div id="characters_label">1.Discord IDとジョブ選択</div>
+                <div class="character_pane" id="character_1_pane">
+                    <div class="character_label" id="character_1_label">1人目</div>
+                    <input id="discord_id_1" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_1">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_2_pane">
+                    <div class="character_label" id="character_2_label">2人目</div>
+                    <input id="discord_id_2" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_2">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_3_pane">
+                    <div class="character_label" id="character_3_label">3人目</div>
+                    <input id="discord_id_3" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_3">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_4_pane">
+                    <div class="character_label" id="character_4_label">4人目</div>
+                    <input id="discord_id_4" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_4">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_5_pane">
+                    <div class="character_label" id="character_5_label">5人目</div>
+                    <input id="discord_id_5" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_5">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_6_pane">
+                    <div class="character_label" id="character_6_label">6人目</div>
+                    <input id="discord_id_6" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_6">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_7_pane">
+                    <div class="character_label" id="character_7_label">7人目</div>
+                    <input id="discord_id_7" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_7">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+                <div class="character_pane" id="character_8_pane">
+                    <div class="character_label" id="character_8_label">8人目</div>
+                    <input id="discord_id_8" type="text" name="discord_id" placeholder="18桁の数字" maxlength="18">
+                    <select name="jobs" id="job_8">
+                        <option value="">選択してください</option>
+                        <option value="PLD">ナイト</option>
+                        <option value="WAR">戦士</option>
+                        <option value="DRK">暗黒騎士</option>
+                        <option value="GNB">ガンブレイカー</option>
+                        <option value="WHM">白魔導士</option>
+                        <option value="SCH">学者</option>
+                        <option value="AST">占星術師</option>
+                        <option value="MNK">モンク</option>
+                        <option value="DRG">竜騎士</option>
+                        <option value="NIN">忍者</option>
+                        <option value="SAM">侍</option>
+                        <option value="BRD">吟遊詩人</option>
+                        <option value="MCN">機工士</option>
+                        <option value="DNC">踊り子</option>
+                        <option value="BLM">黒魔導士</option>
+                        <option value="SMN">召喚士</option>
+                        <option value="RDM">赤魔導士</option>
+                        <!-- <option value="BLU">青魔道士</option> -->
+                    </select>
+                </div>
+            </div>
+            <div id="icon_size_pane">
+                <div id="icon_size_label">2.UIサイズの設定</div>
+                <div class="uis_size_pane" id="ui_size_pane">
+                    <div id="ui_size_label">高解像度時のUIサイズ設定</div>
+                    <select name="ui_size" id="ui_size">
+                        <option value=1 selected>100%(標準サイズ)</option>
+                        <option value=1.5>150%(FullHDサイズ)</option>
+                        <option value=2>200%(WQHDサイズ)</option>
+                        <option value=3>300%(4Kサイズ)</option>
+                    </select>
+                </div>
+                <div class="uis_size_pane" id="hud_size_pane">
+                    <div id="hud_size_label">HUDサイズ設定</div>
+                    <select name="hud_size" id="hud_size">
+                        <option value=0.6>60%</option>
+                        <option value=0.8>80%</option>
+                        <option value=0.9>90%</option>
+                        <option value=1>100%</option>
+                        <option value=1.1 selected>110%</option>
+                        <option value=1.2>120%</option>
+                        <option value=1.3>140%</option>
+                        <option value=1.6>160%</option>
+                        <option value=1.8>180%</option>
+                        <option value=2>200%</option>
+                    </select>
+                </div>
+            </div>
+            <div id="button_pane">
+                <button type="button" id="submit" onclick="OnButtonClick();">作成</button>
+            </div>
+            <div id="text_pane">
+                <div id="textarea_label">完成したカスタムCSS</div>
+                <textarea readonly id="generated" cols=90 rows="20"></textarea>
+            </div>
+            <div id="description_pane">
+                <div id="description_title">使い方</div>
+                <div id="description">
+                    <p>1.《1.Discord IDとジョブ選択》にDiscordのユーザIDとジョブ選択で対応するジョブを選択する。</p>
+                    <p><a href="https://support.discord.com/hc/ja/articles/206346498-%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8ID%E3%81%AF%E3%81%A9%E3%81%93%E3%81%A7%E8%A6%8B%E3%81%A4%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B-">ユーザー/サーバー/メッセージIDはどこで見つけられる？ – Discord</a></p>
+                    <p>2.《2.UIサイズの設定》にFF14のシステムコンフィグからUIのサイズとHUDのサイズを確認して入力する。</p>
+                    <p>3.《作成》をクリックする。</p>
+                    <p>4.《完成したカスタムCSS》の内容をすべてコピーして、OBSのカスタムCSSとして適用する。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>(C) SQUARE ENIX CO., LTD. All Rights Reserved.</footer>
+</body>
+
+</html>
