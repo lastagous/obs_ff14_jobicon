@@ -34,6 +34,7 @@ function createCharCss(discord_id, job, order) {
 }
 
 function jobIconUrlMap() {
+    // https://jp.finalfantasyxiv.com/jobguide/battle/
     return new Map([
         ["PLD", "https://img.finalfantasyxiv.com/lds/promo/h/V/NUXU4h6iXzF8HS4BxHKYf7vOa0.png"],
         ["WAR", "https://img.finalfantasyxiv.com/lds/promo/h/0/U3f8Q98TbAeGvg_vXiHGOaa2d4.png"],
@@ -51,7 +52,9 @@ function jobIconUrlMap() {
         ["DNC", "https://img.finalfantasyxiv.com/lds/promo/h/0/ZzzbixB1HHW9FaxNXdfY7Y7lvw.png"],
         ["BLM", "https://img.finalfantasyxiv.com/lds/promo/h/A/7JuT00VSwaFqTfcTYUCUnGPFQE.png"],
         ["SMN", "https://img.finalfantasyxiv.com/lds/promo/h/b/ZwJFxv3XnfqB5N6tKbgXKnj6BU.png"],
-        ["RDM", "https://img.finalfantasyxiv.com/lds/promo/h/C/NRnqJxzRtbDKR1ZHzxazWBBR2Y.png"]
+        ["RDM", "https://img.finalfantasyxiv.com/lds/promo/h/C/NRnqJxzRtbDKR1ZHzxazWBBR2Y.png"],
+        ["SGE", "https://img.finalfantasyxiv.com/lds/promo/h/e/G0lQTD01LdCGk5pECSc7fbbmbM.png"],
+        ["RPR", "https://img.finalfantasyxiv.com/lds/promo/h/p/y8GHAXX4qhY7D-yqnCqtEPkjoo.png"]
         // ["BLU", ""],
     ]);
 }
